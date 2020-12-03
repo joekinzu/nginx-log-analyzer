@@ -2,11 +2,14 @@
 
 Nginx Log Parser 
 
-Get the unique urls from logfile
+Get the unique urls from gzip nginx logfile
 
 
 Result:
-count, sum request time, avg request time, max request time, median
+{id: {url name,url count, url count %, sum request time, sum request time %, avg request time, max request time, median}}
    
 Output:
-result.csv file
+result.json file
+
+Added:
+Pandas support
